@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  padding-top: 25px;
+  font-family: "Inter", sans-serif;
+}
+.page-container {
+  overflow: hidden;
+  max-width: 430px;
+  margin: auto;
+  padding-bottom: 50px;
+  background: rgb(238, 238, 238);
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(200, 185, 185, 0.25);
+}
+.container {
+  max-width: 348px;
+  margin: auto;
+}
+.header {
+  padding-top: 41px;
+  padding-left: 53px;
+  padding-bottom: 144px;
+  color: rgb(255, 255, 255);
+  border-radius: 0px 0px 90px 90px;
+  background-image: url(/img/bg.png);
+  
+}
+.header-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.header-text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.user {
+  text-align: center;
+  border-radius: 10px;
+  margin-top: -55px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  background: rgb(255, 255, 255);
+}
+.author-avatar {
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+  object-fit: cover;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.user-name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+.user-discription {
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(118, 118, 118);
+}
+.cards {
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 23px 32px 28px 32px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.button {
+  width: 80px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.vk {
+  background: rgb(0, 119, 255);
+}
+.wa {
+  background: rgb(37, 211, 102);
+}
+.tg {
+  background: rgb(36, 161, 222);
+}
+.card-info {
+  margin-bottom: 23px;
+}
+.info-text {
+  display: inline-block;
+  color: rgb(94, 94, 94);
+  font-size: 12px;
+}
+.text-1,
+.text-2 {
+  margin-bottom: 5px;
+}
+
+/* .info-text :not(:last-child) {
+  margin-bottom: 5px;
+} */
+
+.comment {
+  width: 100%;
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-bottom: 17px;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+}
+.arrow-logo {
+  margin-left: 14px;
+}
