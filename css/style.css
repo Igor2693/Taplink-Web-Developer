@@ -97,20 +97,14 @@ body {
 .card-info {
   margin-bottom: 23px;
 }
+.card-info :not(:last-child) {
+  margin-bottom: 5px;
+}
 .info-text {
   display: inline-block;
   color: rgb(94, 94, 94);
   font-size: 12px;
 }
-.text-1,
-.text-2 {
-  margin-bottom: 5px;
-}
-
-/* .info-text :not(:last-child) {
-  margin-bottom: 5px;
-} */
-
 .comment {
   width: 100%;
   padding-top: 17px;
