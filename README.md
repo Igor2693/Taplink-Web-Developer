@@ -1,4 +1,4 @@
-# html-starter
+# Taplink Web Developer
 
 Стартовый шаблон для вёрстки проекта
 
